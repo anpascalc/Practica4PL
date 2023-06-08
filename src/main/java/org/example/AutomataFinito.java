@@ -39,4 +39,8 @@ public abstract class AutomataFinito {
     public abstract int cierreTransicion (int estado, int[] cad);
     //Método que informa si una cadena pertenece al lenguaje definido por el autómata
     public abstract boolean perteneceLenguaje (int[] cad);
+    public abstract int[] ultimoFinal(int[] cad);
+
+    //Extra: usado para comprobar que se creaba bien la matriz
+    public abstract String getMatriz();
 }
